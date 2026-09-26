@@ -1,7 +1,7 @@
 <title>Identidade visual da Rayza</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Montserrat:wght@400;500;700&family=Anton&family=Karla:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Montserrat:wght@400;500;700&family=Anton&family=DM+Sans:wght@400;700&family=Karla:wght@400;600;700&display=swap">
 <style>
 :root{
   --bg:#F3F3F1; --panel:#FFFFFF; --ink:#1C1C1E; --muted:#66666C; --line:#DEDED9; --chip:#EDEDE9;
@@ -108,6 +108,59 @@ ul.rules{margin:0;padding-left:18px;display:grid;gap:4px;font-size:15px}
 .d3.hc{background:var(--t);color:var(--a)}
 .d3.hc span{font-family:"Anton",Impact,sans-serif}
 
+/* ---------- Diário com fotos ---------- */
+.fx{--p:#F6EFE9;--w:#6E1F3A;--r:#E7C6C2;--i:#2B1B21;--cr:#F4E8CC}
+.photo{position:absolute;inset:0}
+.photo::after{content:"";position:absolute;inset:0;opacity:.28;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.p-room{background:
+  radial-gradient(22% 30% at 78% 22%, rgba(255,232,196,.75), transparent 70%),
+  linear-gradient(90deg, transparent 0 58%, rgba(40,28,22,.35) 58% 60%, transparent 60%),
+  linear-gradient(180deg, transparent 0 62%, #5A4030 62% 64%, #3B2A20 64% 100%),
+  linear-gradient(90deg, #7A6552 0%, #B7A48E 45%, #CDBBA3 70%, #9A8570 100%)}
+.p-book{background:
+  radial-gradient(50% 40% at 50% 45%, rgba(255,246,228,.9), transparent 75%),
+  linear-gradient(90deg, transparent 0 18%, #EFE3CF 18% 49%, #B9A487 49% 51%, #EDE0CB 51% 82%, transparent 82%),
+  linear-gradient(180deg, #6B5443 0 22%, transparent 22% 78%, #6B5443 78%),
+  #6B5443}
+.p-coffee{background:
+  radial-gradient(circle at 36% 40%, #2E1C14 0 9%, #F2E9DD 9.5% 15%, transparent 15.5%),
+  radial-gradient(38% 28% at 70% 70%, rgba(240,226,206,.95) 0 60%, transparent 62%),
+  radial-gradient(60% 50% at 80% 10%, rgba(255,236,205,.6), transparent 70%),
+  linear-gradient(160deg, #A58C74, #7B634F)}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg, rgba(20,12,10,.05) 0%, rgba(20,12,10,.35) 100%)}
+.ph-label{position:absolute;top:5cqw;right:5cqw;font-family:"DM Sans",sans-serif;font-size:3cqw;letter-spacing:.04em;text-transform:uppercase;background:rgba(0,0,0,.35);color:#fff;padding:1.2cqw 2.4cqw;border-radius:99px;max-width:60cqw;text-align:right}
+.big-quote{position:absolute;left:8cqw;right:8cqw;top:30cqw;margin:0;font-family:"DM Sans",sans-serif;font-weight:400;font-size:10.4cqw;line-height:1.02;color:var(--cr);text-align:justify;text-align-last:left;letter-spacing:-.01em;text-shadow:0 1px 12px rgba(0,0,0,.25)}
+.big-quote em{font-family:"DM Serif Display",Georgia,serif;font-style:italic;font-weight:400}
+.big-quote b{font-weight:700}
+.fx .handle,.fx .pg{color:var(--cr)}
+/* 1B split */
+.split .top{position:absolute;left:0;right:0;top:0;height:56%;overflow:hidden}
+.split .bottom{position:absolute;left:0;right:0;bottom:0;height:44%;background:var(--p);color:var(--i)}
+.split .bottom h4{position:absolute;left:7cqw;right:7cqw;top:6cqw;margin:0;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:8.6cqw;line-height:1.05;color:var(--w)}
+.split .bottom h4 em{color:var(--i)}
+.split .bottom p{position:absolute;left:7cqw;right:7cqw;top:6cqw;margin:0;font-family:"Lora",Georgia,serif;font-size:5.6cqw;line-height:1.38}
+.split .bottom mark{background:linear-gradient(transparent 55%,var(--r) 55%);color:inherit}
+.split .handle,.split .pg{color:var(--i)}
+/* 1C álbum */
+.album{background:var(--p);color:var(--i)}
+.album .frame{position:absolute;left:12cqw;right:12cqw;top:9cqw;height:58cqw;background:#fff;padding:3cqw 3cqw 10cqw;box-shadow:0 2px 10px rgba(0,0,0,.15);transform:rotate(-2.5deg)}
+.album .frame .img{position:relative;width:100%;height:100%;overflow:hidden}
+.album .tape{position:absolute;top:-3cqw;left:50%;width:22cqw;height:6cqw;transform:translateX(-50%) rotate(3deg);background:rgba(231,198,194,.8)}
+.album .hand{position:absolute;left:14cqw;right:12cqw;top:66cqw;font-family:"Caveat",cursive;font-size:7.4cqw;color:var(--w);transform:rotate(-2deg)}
+.album h4{position:absolute;left:8cqw;right:8cqw;bottom:14cqw;margin:0;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:8.2cqw;line-height:1.05}
+.album h4 em{color:var(--w)}
+.album p{position:absolute;left:8cqw;right:8cqw;top:12cqw;margin:0;font-family:"Lora",Georgia,serif;font-size:6cqw;line-height:1.4}
+.album p mark{background:linear-gradient(transparent 55%,var(--r) 55%);color:inherit}
+.album .handle,.album .pg{color:var(--i)}
+.cta-paper{background:var(--r);color:var(--i)}
+.cta-paper h4{position:absolute;left:8cqw;right:8cqw;top:22cqw;margin:0;font-family:"DM Sans",sans-serif;font-weight:400;font-size:10cqw;line-height:1.04;color:var(--w);letter-spacing:-.01em}
+.cta-paper h4 em{font-family:"DM Serif Display",Georgia,serif}
+.cta-paper p{position:absolute;left:8cqw;right:8cqw;bottom:16cqw;margin:0;font-family:"Lora",Georgia,serif;font-size:5.4cqw}
+.cta-paper .handle,.cta-paper .pg{color:var(--i)}
+.new-intro{margin-top:40px;padding:18px 20px;border-radius:12px;background:var(--panel);border:1px solid var(--line);display:grid;gap:6px;max-width:760px}
+.new-intro p{margin:0}
+.old-title{margin-top:64px;font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
+
 section.rec{margin-top:48px;padding:20px;border-radius:12px;background:var(--panel);border:1px solid var(--line);display:grid;gap:8px;max-width:760px}
 section.rec h2{font-size:26px}
 section.rec p{margin:0}
@@ -117,14 +170,88 @@ section.rec p{margin:0}
 <div class="wrap">
   <header class="top">
     <span class="eyebrow">@arayzacavalcante · Livros e psicologia sobre mulheres e suas escolhas</span>
-    <h1>Três caminhos para a sua identidade visual</h1>
-    <p class="lede">Cada direção mostra paleta, fontes, três slides do carrossel sobre <i>A Redoma de Vidro</i> e as capas dos destaques. Todas as fontes existem no Canva. Deslize os slides para o lado no celular.</p>
+    <h1>Diário de leitura, agora com fotos</h1>
+    <p class="lede">Três versões da Direção 1 usando fotos reais, cada uma com três slides do carrossel sobre <i>A Redoma de Vidro</i>. Mais abaixo estão as primeiras opções. Todas as fontes existem no Canva. No celular, deslize os slides para o lado.</p>
     <nav class="jump" aria-label="Ir para a direção">
-      <a href="#diario">1 · Diário de leitura</a>
-      <a href="#galeria">2 · Galeria clássica</a>
-      <a href="#manifesto">3 · Manifesto</a>
+      <a href="#frase">1A · Frase na foto</a>
+      <a href="#dividido">1B · Foto e papel</a>
+      <a href="#album">1C · Álbum</a>
+      <a href="#fotos">Guia de fotos</a>
+      <a href="#diario">Primeiras opções</a>
     </nav>
   </header>
+
+  <div class="new-intro">
+    <p><b>Rodada 2: Diário de leitura com fotos.</b> A mesma paleta (vinho, rosa-pó, papel) e as mesmas fontes da Direção 1, agora com fotos reais do seu dia a dia, como na referência da @lisalinhtran.</p>
+    <p class="label">Os fundos marcados como "sua foto" são simulações. No Canva entram as suas fotos.</p>
+  </div>
+
+  <!-- 1A -->
+  <section class="dir" id="frase" aria-labelledby="t1a">
+    <div class="dir-head"><span class="n">Versão 1A</span><h2 id="t1a">Frase na foto</h2><span class="tag">A mais parecida com a referência</span></div>
+    <p class="why">Foto da sua casa ou dos seus livros ocupando tudo e uma frase grande em creme por cima, em minúsculas, com uma palavra em itálico e outra em negrito. É o formato mais compartilhável: cada slide funciona sozinho num story. Para textos longos, fica cansativo.</p>
+    <div class="slides" role="list" aria-label="Exemplo de carrossel, versão 1A">
+      <div class="slide fx" role="listitem"><div class="photo p-room"></div><div class="shade"></div><span class="ph-label">sua foto: sala ou estante com luz da janela</span><p class="big-quote">sylvia plath explicou por que você não consegue <em>decidir</em> <b>nada.</b></p><span class="handle">@arayzacavalcante</span><span class="pg">1/6</span></div>
+      <div class="slide fx" role="listitem"><div class="photo p-book"></div><div class="shade"></div><span class="ph-label">sua foto: livro aberto</span><p class="big-quote">escolher é <em>perder</em> alguma coisa. não escolher também é, só que <b>mais devagar.</b></p><span class="handle">@arayzacavalcante</span><span class="pg">4/6</span></div>
+      <div class="slide cta-paper" role="listitem"><h4>qual figo você está deixando <em>apodrecer?</em></h4><p>Me conta nos comentários. E manda para a amiga que precisa escolher.</p><span class="handle">@arayzacavalcante</span><span class="pg">6/6</span></div>
+    </div>
+    <div class="meta">
+      <div class="box"><h3>Fontes</h3><div class="fonts">
+        <div class="font"><span class="fname">DM Sans</span><span class="role">frase principal</span><span class="sample" style="font-family:'DM Sans',sans-serif">mulheres e suas escolhas</span></div>
+        <div class="font"><span class="fname">DM Serif Display itálico</span><span class="role">1 palavra de destaque</span><span class="sample" style="font-family:'DM Serif Display',serif;font-style:italic">escolhas</span></div>
+      </div></div>
+      <div class="box"><h3>Regras</h3><ul class="rules">
+        <li>Texto sempre creme <code>#F4E8CC</code>, alinhado nas duas margens.</li>
+        <li>Uma palavra em itálico e uma em negrito por slide. Nunca mais que isso.</li>
+        <li>Fotos quentes e um pouco escurecidas para o texto aparecer.</li>
+        <li>Último slide em rosa-pó, sem foto, com a pergunta.</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <!-- 1B -->
+  <section class="dir" id="dividido" aria-labelledby="t1b">
+    <div class="dir-head"><span class="n">Versão 1B</span><h2 id="t1b">Foto e papel</h2><span class="tag">Equilibrada</span></div>
+    <p class="why">Foto na parte de cima e um bloco de papel embaixo com o texto. Aguenta textos mais longos, como a explicação de um conceito de psicologia, e continua com cara de vida real.</p>
+    <div class="slides" role="list" aria-label="Exemplo de carrossel, versão 1B">
+      <div class="slide split" role="listitem"><div class="top"><div class="photo p-room"></div></div><span class="ph-label">sua foto: você lendo, de costas ou de lado</span><div class="bottom"><h4>Sylvia Plath explicou por que você <em>não consegue decidir nada</em></h4></div><span class="handle">@arayzacavalcante</span><span class="pg">1/8</span></div>
+      <div class="slide split" role="listitem"><div class="top"><div class="photo p-book"></div></div><span class="ph-label">sua foto: a página do trecho</span><div class="bottom"><p>Cada figo é uma vida possível. Com medo de escolher um e perder os outros, <mark>ela não escolhe nenhum.</mark></p></div><span class="handle">@arayzacavalcante</span><span class="pg">4/8</span></div>
+      <div class="slide cta-paper" role="listitem"><h4>qual figo você está deixando <em>apodrecer?</em></h4><p>Me conta nos comentários. E manda para a amiga que precisa escolher.</p><span class="handle">@arayzacavalcante</span><span class="pg">8/8</span></div>
+    </div>
+  </section>
+
+  <!-- 1C -->
+  <section class="dir" id="album" aria-labelledby="t1c">
+    <div class="dir-head"><span class="n">Versão 1C</span><h2 id="t1c">Álbum</h2><span class="tag">A mais afetiva</span></div>
+    <p class="why">Fundo de papel com a foto colada com fita e uma anotação à mão, como um caderno de leitura. É a mais pessoal e combina com maternidade e bastidores. Chama menos atenção no feed que a 1A.</p>
+    <div class="slides" role="list" aria-label="Exemplo de carrossel, versão 1C">
+      <div class="slide album" role="listitem"><div class="frame"><span class="tape"></span><div class="img"><div class="photo p-coffee"></div></div></div><span class="hand">leitura da semana ☕</span><h4>Sylvia Plath explicou por que você <em>não consegue decidir nada</em></h4><span class="handle">@arayzacavalcante</span><span class="pg">1/8</span></div>
+      <div class="slide album" role="listitem"><p>Cada figo é uma vida possível. Ela quer todos. Com medo de escolher um e perder os outros, <mark>não escolhe nenhum.</mark></p><span class="hand" style="top:auto;bottom:18cqw">e os figos apodrecem…</span><span class="handle">@arayzacavalcante</span><span class="pg">4/8</span></div>
+      <div class="slide cta-paper" role="listitem"><h4>qual figo você está deixando <em>apodrecer?</em></h4><p>Me conta nos comentários. E manda para a amiga que precisa escolher.</p><span class="handle">@arayzacavalcante</span><span class="pg">8/8</span></div>
+    </div>
+  </section>
+
+  <!-- Guia de fotos -->
+  <section class="dir" id="fotos" aria-labelledby="tf">
+    <div class="dir-head"><span class="n">Para qualquer versão</span><h2 id="tf">Guia de fotos</h2></div>
+    <div class="meta">
+      <div class="box"><h3>O que fotografar</h3><ul class="rules">
+        <li>Seus livros: abertos, empilhados, na estante, com marca-texto.</li>
+        <li>Cantos da casa com luz de janela: mesa, poltrona, cama arrumada.</li>
+        <li>Mãos: segurando livro, xícara, caneta, caderno.</li>
+        <li>Rotina de mãe sem mostrar o rosto das crianças: brinquedos, mãozinhas, bagunça.</li>
+        <li>Você de lado, de costas ou lendo.</li>
+      </ul></div>
+      <div class="box"><h3>Como fotografar</h3><ul class="rules">
+        <li>Luz natural, de preferência de manhã ou no fim da tarde.</li>
+        <li>Deixe espaço vazio na foto para a frase caber.</li>
+        <li>Mesmo filtro em todas: quente, contraste baixo, um pouco de granulado.</li>
+        <li>Tire 20 fotos num dia e use por semanas. Um banco de fotos seu.</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <p class="old-title">Primeiras opções</p>
 
   <!-- DIREÇÃO 1 -->
   <section class="dir" id="diario" aria-labelledby="t1">
@@ -242,7 +369,7 @@ section.rec p{margin:0}
 
   <section class="rec" aria-labelledby="tr">
     <h2 id="tr">Minha recomendação</h2>
-    <p><b>Direção 1, Diário de leitura.</b> É a que mais parece você: leitora, mãe, escritora de Substack. Aproveita o vinho e o rosa que já estão no seu perfil, funciona tanto para livros quanto para maternidade e não se confunde com as suas referências.</p>
-    <p>Dá para misturar: a estrutura da 1 com uma pintura clássica na capa quando o post for sobre um clássico (da 2).</p>
+    <p><b>Misture a 1A e a 1B no mesmo carrossel.</b> Na capa, a frase na foto (1A), que para o dedo no feed e é compartilhada. No miolo, foto e papel (1B), que aguenta o texto explicativo. No fim, a pergunta no rosa-pó.</p>
+    <p>A 1C (álbum) fica para posts de maternidade e bastidores, para variar a grade sem sair da identidade.</p>
   </section>
 </div>
