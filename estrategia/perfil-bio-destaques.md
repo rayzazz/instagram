@@ -40,11 +40,12 @@ Capas: fundo **papel `#F6EFE9`** com a palavra em **DM Serif Display itálico, v
 
 | Nome | O que colocar | Vem dos destaques antigos |
 |---|---|---|
-| **oi, sou a ray** | Quem é você, mãe de dois, estudante de psicologia, o que tem no perfil. 5 a 7 stories, com um meme no meio | — (novo) |
+| **oi** | Quem é você. Roteiro em `conteudo/destaque-oi-sou-a-ray.md` | — (novo) |
 | **lendo** | Leitura atual, trechos sublinhados, mini-resenhas, "livros que eu larguei" | 📖 |
-| **memes** | Memes de leitora, de mãe e de estudante de psicologia. É a porta de entrada mais leve | 🍬 (se forem memes/aleatórios) |
-| **mãe de dois** | Bastidores de maternidade real, sem mostrar o rosto das crianças se preferir | 📺 (se for rotina/casa) |
-| **textos 💌** | Prints dos textos do Substack com o link | 📝 |
+| **assistindo** | Séries e filmes. Bônus: comentar personagens pelo olhar da psicologia | 📺 |
+| **memes** | Memes de leitora, de mãe e de estudante de psicologia | — (novo) |
+| **vida real** | Maternidade, receitas, rotina, a casa | 🍬 (receita de doce) |
+| **textos** | Prints dos textos do Substack com o link | 📝 |
 | **caixinha** | Perguntas e respostas, votações ("qual livro a gente lê?") | — (novo) |
 
 **Mais tarde:** quando abrir a lista de espera ou a leitura guiada, criar **leia comigo** e colocá-la em 1º lugar.
