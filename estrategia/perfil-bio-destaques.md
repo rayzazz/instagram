@@ -12,26 +12,18 @@ Alternativas: `Rayza | Leitura e Psicologia` · `Rayza Cavalcante | Livros`
 
 ## Bio (até 150 caracteres)
 
-**Opção A (recomendada):** conceito primeiro
+**Escolhida (26/09):** conceito "mulheres e suas escolhas"
 
 ```
-Livros e psicologia para a vida que a gente adia 📚
+Livros e psicologia sobre mulheres e suas escolhas 📚
 Estudante de psicologia · mãe de dois
 ✉️ Meus textos no Substack ⤵️
 ```
 
-**Opção B:** mantém a sua bio atual e acrescenta os livros
+**Versão futura:** para quando abrir a primeira leitura guiada
 
 ```
-Estudante de psicologia. Mãe de dois.
-Livros e textos sobre autonomia, escolha e a vida que a gente adia 📚
-✉️ Textos quando a rotina permite ⤵️
-```
-
-**Opção C:** para quando abrir a primeira leitura guiada
-
-```
-Livros e psicologia para a vida que a gente adia 📚
+Livros e psicologia sobre mulheres e suas escolhas 📚
 Estudante de psicologia · mãe de dois
 📖 Leia [livro] comigo: vagas abertas ⤵️
 ```
@@ -47,7 +39,7 @@ Capas: **mesma cor de fundo + ícone simples ou palavra**, na paleta da identida
 
 | Nome | O que colocar |
 |---|---|
-| **Sobre mim** | Quem é você (mãe de dois, estudante de psicologia), por que criou o perfil, o que é "a vida que a gente adia", o que a pessoa vai encontrar aqui |
+| **Sobre mim** | Quem é você (mãe de dois, estudante de psicologia), por que criou o perfil, o que é "mulheres e suas escolhas", o que a pessoa vai encontrar aqui |
 | **Lendo** | O que está lendo agora, trechos sublinhados, resenhas de 3 stories |
 | **Textos** | Prints dos textos do Substack com link para ler |
 | **Maternidade** | Bastidores e reflexões de mãe real (o que hoje está espalhado pelo feed) |
@@ -61,6 +53,6 @@ Os destaques 📺 e 🍬 de hoje: reaproveite o que servir em "Sobre mim" ou "Ma
 | Pilar | Papel | Frequência |
 |---|---|---|
 | 1. **Livros pelo olhar da psicologia** | atrai gente nova (compartilhável) | 40% |
-| 2. **A vida que a gente adia**: escolha, autonomia, procrastinação, arrependimento | identificação, conceito da marca | 25% |
+| 2. **Mulheres e suas escolhas**: autonomia, decisão, culpa, procrastinação, arrependimento | identificação, conceito da marca | 25% |
 | 3. **Maternidade real** | conexão com o seu público principal | 20% |
 | 4. **Bastidores**: mãe estudando psicologia e lendo | confiança, pessoa por trás | 15% |

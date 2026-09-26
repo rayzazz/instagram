@@ -2,7 +2,7 @@
 
 _24/09/2026 · base: diagnóstico do perfil + referências (Roberta Ferec, Gabriella Goldenstein, Clube do Offline, Laura Zimmer, @najulia.gf)_
 
-Conceito central: **"a vida que a gente adia"**, com livros, psicologia e maternidade real para mulheres que querem se reencontrar.
+Conceito central: **"mulheres e suas escolhas"**: autonomia feminina através de livros, psicologia e maternidade real.
 
 ## ⚠️ Limite ético (estudante de Psicologia)
 
@@ -15,7 +15,7 @@ Nada pode ser vendido ou apresentado como terapia, atendimento, acompanhamento p
 | 1 | Links de afiliada (Amazon etc.) nos livros que indica | já | baixo | baixo, mas começa hoje |
 | 2 | Substack pago (textos extras + comunidade) | já tem o Substack; cobrar com ~500–1.000 inscritos | baixo | médio, recorrente |
 | 3 | **Leitura guiada de um livro** (4 encontros online) | já, com 10–20 pessoas | médio | médio; valida o clube |
-| 4 | Produto digital: diário/guia de escrita ("30 perguntas para a vida que a gente adia"), guia de leitura | já | médio (faz uma vez, vende sempre) | médio |
+| 4 | Produto digital: diário/guia de escrita ("30 perguntas sobre as suas escolhas"), guia de leitura | já | médio (faz uma vez, vende sempre) | médio |
 | 5 | Desafio pago de baixo valor (ex.: 21 dias de leitura + escrita) | ~1–2 mil seguidores | médio | médio; ótimo para crescer a lista |
 | 6 | **Clube do livro por assinatura** | depois de 2–3 leituras guiadas com boa procura | alto | alto, recorrente |
 | 7 | Parcerias com editoras e marcas (maternidade, bem-estar, papelaria) | recebidos já; pagos a partir de ~5 mil | baixo | médio |
@@ -34,7 +34,7 @@ Nada pode ser vendido ou apresentado como terapia, atendimento, acompanhamento p
 ## Construção de comunidade (grátis)
 
 - **Nome para a comunidade**, algo que diga quem a pessoa vira (como "Inteiras").
-- **Ritual semanal fixo**: ex. "domingo da vida adiada", uma pergunta nos stories respondida pela comunidade.
+- **Ritual semanal fixo**: ex. "domingo das escolhas", uma pergunta nos stories respondida pela comunidade.
 - **Canal de transmissão no Instagram**: aviso de textos, bastidores, votação do próximo livro.
 - **Caixinha de perguntas** e **repost das respostas** (a pessoa se vê no seu perfil).
 - **Leituras coletivas gratuitas** de vez em quando, para aquecer antes das pagas.

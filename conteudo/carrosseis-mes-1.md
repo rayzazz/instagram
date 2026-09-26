@@ -19,14 +19,14 @@ _24/09/2026 · Sugestão de dias: segunda, quarta e sexta_
 ## Semana 1: apresentação + conceito
 
 ### 1. Pilar 4 · Apresentação (fixar no perfil)
-**Capa:** "Eu passei anos adiando a minha própria vida. Esse perfil é sobre isso."
+**Capa:** "Durante muito tempo, outras pessoas escolheram por mim. Esse perfil é sobre isso." _(ajuste à sua história real)_
 1. Capa
 2. Oi, eu sou a Rayza. Mãe de dois e estudante de psicologia.
-3. [Sua história em 2 frases: o que você adiou e o que te fez voltar]
+3. [Sua história em 2 frases: uma escolha que não foi sua e o momento em que você começou a escolher]
 4. Os livros me ajudaram a entender o que eu estava sentindo antes de eu ter palavras.
 5. A psicologia me deu nome para muita coisa.
-6. Aqui eu junto os dois: livros lidos pelo olhar da psicologia, para quem também está adiando a própria vida.
-7. CTA: "O que você anda adiando? Me conta nos comentários, eu leio todos."
+6. Aqui eu junto os dois: livros lidos pelo olhar da psicologia, sobre mulheres e as escolhas que elas fazem (ou que fazem por elas).
+7. CTA: "Qual escolha você quer fazer por você este ano? Me conta nos comentários, eu leio todos."
 
 ### 2. Pilar 1 · A Redoma de Vidro (Sylvia Plath, 1963)
 **Capa:** "Sylvia Plath explicou em 1963 por que você não consegue decidir nada 🌳"
@@ -109,7 +109,7 @@ _24/09/2026 · Sugestão de dias: segunda, quarta e sexta_
 2. Bronnie Ware trabalhou anos com cuidados paliativos e anotou o que os pacientes mais lamentavam.
 3. O primeiro da lista: "Queria ter tido coragem de viver uma vida fiel a mim, e não a que esperavam de mim."
 4. Ninguém disse "queria ter trabalhado mais".
-5. A vida que a gente adia costuma ser justamente a que é nossa.
+5. As escolhas que a gente deixa para depois costumam ser justamente as mais nossas.
 6. Não precisa de uma revolução. Precisa de um passo pequeno esta semana.
 7. CTA: "Qual é o seu passo pequeno? Escreve aqui e se comprometa."
 
@@ -136,7 +136,7 @@ _24/09/2026 · Sugestão de dias: segunda, quarta e sexta_
 7. CTA: "Você também sente isso? Comenta 🙋‍♀️"
 
 ### 12. Pilar 1 · Lista + teste da leitura guiada
-**Capa:** "5 livros para quando você sente que está adiando a própria vida"
+**Capa:** "5 livros sobre mulheres e suas escolhas"
 1. Capa
 2. *A Redoma de Vidro*, Sylvia Plath: sobre escolhas e paralisia
 3. *A Filha Perdida*, Elena Ferrante: sobre ser mãe e ser mulher

@@ -44,3 +44,5 @@ _24/09/2026 · feito a partir de prints ([perfil](prints/perfil-2026-09-24.png),
 - [ ] Destaques com nome: Sobre mim · Leituras · Textos · Maternidade · Clube (em breve)
 - [ ] Definir identidade visual: 2 fontes, 3–4 cores e um estilo de imagem
 - [ ] Definir 3–4 pilares de conteúdo e criar os primeiros ganchos
+
+> **Atualização 26/09:** o conceito "a vida que a gente adia" foi trocado por **"mulheres e suas escolhas"**. A autonomia feminina continua no centro, sem o tom de cobrança. Ver `estrategia/perfil-bio-destaques.md`.
