@@ -34,20 +34,22 @@ Estudante de psicologia · mãe de dois
 - Agora: Substack (como já está).
 - Quando houver produto: página de links com 1) leitura guiada / lista de espera, 2) Substack, 3) livros indicados (link de afiliada).
 
-## Destaques (nessa ordem)
+## Destaques (decididos em 26/09, nessa ordem)
 
-Capas: **mesma cor de fundo + ícone simples ou palavra**, na paleta da identidade visual. Nada de círculos de cores diferentes.
+Capas: fundo **papel `#F6EFE9`** com a palavra em **DM Serif Display itálico, vinho** (ou um mini doodle em Caveat). Nome em minúsculas, curto, com o tom leve do perfil.
 
-| Nome | O que colocar |
-|---|---|
-| **Sobre mim** | Quem é você (mãe de dois, estudante de psicologia), por que criou o perfil, o que é "mulheres e suas escolhas", o que a pessoa vai encontrar aqui |
-| **Lendo** | O que está lendo agora, trechos sublinhados, resenhas de 3 stories |
-| **Textos** | Prints dos textos do Substack com link para ler |
-| **Maternidade** | Bastidores e reflexões de mãe real (o que hoje está espalhado pelo feed) |
-| **Perguntas** | Respostas da caixinha e do ritual semanal |
-| **Leia comigo** | Lista de espera → depois, a página da leitura guiada/clube |
+| Nome | O que colocar | Vem dos destaques antigos |
+|---|---|---|
+| **oi, sou a ray** | Quem é você, mãe de dois, estudante de psicologia, o que tem no perfil. 5 a 7 stories, com um meme no meio | — (novo) |
+| **lendo** | Leitura atual, trechos sublinhados, mini-resenhas, "livros que eu larguei" | 📖 |
+| **memes** | Memes de leitora, de mãe e de estudante de psicologia. É a porta de entrada mais leve | 🍬 (se forem memes/aleatórios) |
+| **mãe de dois** | Bastidores de maternidade real, sem mostrar o rosto das crianças se preferir | 📺 (se for rotina/casa) |
+| **textos 💌** | Prints dos textos do Substack com o link | 📝 |
+| **caixinha** | Perguntas e respostas, votações ("qual livro a gente lê?") | — (novo) |
 
-Os destaques 📺 e 🍬 de hoje: reaproveite o que servir em "Sobre mim" ou "Maternidade" e arquive o resto.
+**Mais tarde:** quando abrir a lista de espera ou a leitura guiada, criar **leia comigo** e colocá-la em 1º lugar.
+
+Não criar destaque vazio: só suba um destaque quando tiver pelo menos 3 stories para ele.
 
 ## Pilares de conteúdo
 
