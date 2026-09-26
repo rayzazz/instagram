@@ -4,9 +4,9 @@ _24/09/2026_
 
 ## Nome (campo "Nome", até 30 caracteres, aparece na busca)
 
-**Recomendado:** `Rayza | Livros e Psicologia` (27 caracteres)
+**Escolhido (26/09):** `Rayza | Livros e Psicologia` (27 caracteres)
 
-Alternativas: `Rayza | Leitura e Psicologia` · `Rayza Cavalcante | Livros`
+Por que não só "Rayza | Psicologia": pode parecer perfil de psicóloga formada, e os livros são o diferencial e o futuro produto (clube).
 
 > O Instagram só deixa trocar o nome 2 vezes a cada 14 dias. Escolha com calma.
 
