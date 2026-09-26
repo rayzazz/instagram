@@ -25,3 +25,7 @@ _26/09/2026 · opções completas em `identidade-visual-opcoes.html` (https://cl
 - **DM Serif Display itálico**: a palavra de destaque
 - **Lora**: texto corrido da 1C
 - **Caveat**: anotação à mão (uma por post)
+
+## Arquivos no Canva
+
+- Capas de destaques (7 páginas, formato story): https://www.canva.com/d/98FhDz668UNEaCr
