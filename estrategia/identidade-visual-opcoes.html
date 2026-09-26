@@ -1,0 +1,248 @@
+<title>Identidade visual da Rayza</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Montserrat:wght@400;500;700&family=Anton&family=Karla:wght@400;600;700&display=swap">
+<style>
+:root{
+  --bg:#F3F3F1; --panel:#FFFFFF; --ink:#1C1C1E; --muted:#66666C; --line:#DEDED9; --chip:#EDEDE9;
+  --ui:"Karla",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --bg:#141415; --panel:#1C1C1F; --ink:#ECECEC; --muted:#A2A2A8; --line:#2E2E33; --chip:#26262A;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark; --bg:#141415; --panel:#1C1C1F; --ink:#ECECEC; --muted:#A2A2A8; --line:#2E2E33; --chip:#26262A;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:16px;line-height:1.55;padding-inline:16px;padding-block:0 72px}
+.wrap{max-width:1040px;margin:0 auto}
+header.top{padding-block:40px 8px;display:grid;gap:10px;max-width:68ch}
+.eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0;text-wrap:balance}
+.lede{margin:0;color:var(--muted)}
+nav.jump{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+nav.jump a{font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;border:1px solid var(--line);padding:6px 12px;border-radius:99px;background:var(--panel)}
+nav.jump a:hover{border-color:var(--muted)}
+nav.jump a:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+
+section.dir{margin-top:48px;display:grid;gap:20px;padding-top:28px;border-top:1px solid var(--line)}
+.dir-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px}
+.dir-head .n{font-size:13px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+h2{margin:0;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(26px,4.5vw,34px);line-height:1.1}
+.tag{font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;background:var(--ink);color:var(--bg)}
+.why{margin:0;max-width:68ch}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.box{display:grid;gap:10px;align-content:start}
+.box h3{margin:0;font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:8px}
+.sw{display:grid;gap:4px;font-size:12px}
+.sw i{display:block;height:52px;border-radius:8px;border:1px solid var(--line)}
+.sw b{font-weight:700}
+.sw code{font-family:ui-monospace,Menlo,monospace;color:var(--muted);font-size:11.5px}
+.fonts{display:grid;gap:8px}
+.font{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;align-items:baseline;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.font .sample{font-size:24px;line-height:1.1;grid-column:1/-1}
+.font .fname{font-weight:700;font-size:13px}
+.font .role{font-size:12px;color:var(--muted);justify-self:end}
+ul.rules{margin:0;padding-left:18px;display:grid;gap:4px;font-size:15px}
+
+.slides{display:flex;gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.slide{flex:0 0 min(260px,72vw);aspect-ratio:4/5;border-radius:6px;position:relative;overflow:hidden;container-type:inline-size;scroll-snap-align:start;box-shadow:0 1px 2px rgba(0,0,0,.08),0 6px 20px rgba(0,0,0,.08)}
+.slide .handle{position:absolute;left:7cqw;bottom:5cqw;font-size:3.6cqw;letter-spacing:.04em;opacity:.75}
+.slide .pg{position:absolute;right:7cqw;bottom:5cqw;font-size:3.6cqw;opacity:.75;font-variant-numeric:tabular-nums}
+.hl{display:flex;gap:14px;flex-wrap:wrap}
+.hl figure{margin:0;display:grid;gap:6px;justify-items:center;font-size:12px}
+.hl .c{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;outline:2px solid var(--line);outline-offset:3px;container-type:inline-size}
+.hl .c span{font-size:24cqw;line-height:1}
+.label{font-size:13px;color:var(--muted)}
+
+/* ---------- Direção 1: Diário de leitura ---------- */
+.d1{--p:#F6EFE9;--w:#6E1F3A;--r:#E7C6C2;--i:#2B1B21;--o:#8A7A3E}
+.d1.s-cover{background:var(--w);color:var(--p)}
+.d1.s-cover .k{position:absolute;top:8cqw;left:7cqw;font-family:"Caveat",cursive;font-size:8cqw;color:var(--r)}
+.d1.s-cover h4{position:absolute;left:7cqw;right:7cqw;top:24cqw;margin:0;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:11.2cqw;line-height:1.02}
+.d1.s-cover h4 em{font-style:italic;color:var(--r)}
+.d1.s-cover .arrow{position:absolute;right:7cqw;top:9cqw;font-size:7cqw;color:var(--r)}
+.d1.s-text{background:var(--p);color:var(--i)}
+.d1.s-text p{position:absolute;left:8cqw;right:8cqw;top:18cqw;margin:0;font-family:"Lora",Georgia,serif;font-size:7cqw;line-height:1.35}
+.d1.s-text mark{background:linear-gradient(transparent 55%,var(--r) 55%);color:inherit;padding:0 .1em}
+.d1.s-text .note{position:absolute;left:8cqw;right:8cqw;bottom:16cqw;font-family:"Caveat",cursive;font-size:8cqw;color:var(--w);transform:rotate(-2deg)}
+.d1.s-cta{background:var(--r);color:var(--i)}
+.d1.s-cta h4{position:absolute;left:8cqw;right:8cqw;top:22cqw;margin:0;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:10.5cqw;line-height:1.05;color:var(--w)}
+.d1.s-cta p{position:absolute;left:8cqw;right:8cqw;bottom:16cqw;margin:0;font-family:"Lora",Georgia,serif;font-size:5.4cqw}
+.d1.hc{background:var(--p);color:var(--w)}
+.d1.hc span{font-family:"DM Serif Display",Georgia,serif}
+
+/* ---------- Direção 2: Galeria clássica ---------- */
+.d2{--k:#1E231F;--m:#EFE8DA;--oc:#C08A3E;--ol:#5E6B4F;--s:#8C8374}
+.d2.s-cover{background:
+  radial-gradient(60% 45% at 62% 38%, #7D6A4E 0%, transparent 70%),
+  radial-gradient(40% 35% at 30% 70%, #4A4A36 0%, transparent 75%),
+  linear-gradient(180deg,#2B2E26 0%, #14170F 100%);color:var(--m)}
+.d2.s-cover::after{content:"aqui entra uma pintura em domínio público";position:absolute;top:6cqw;right:6cqw;font-family:"Montserrat",sans-serif;font-size:3.2cqw;letter-spacing:.05em;text-transform:uppercase;opacity:.55;max-width:48cqw;text-align:right}
+.d2.s-cover h4{position:absolute;left:7cqw;right:9cqw;bottom:18cqw;margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:11.5cqw;line-height:.98}
+.d2.s-cover h4 em{font-style:italic;font-weight:500;color:var(--oc)}
+.d2.s-cover .arrow{position:absolute;left:7cqw;bottom:9cqw;font-family:"Montserrat",sans-serif;font-size:4cqw;color:var(--oc);letter-spacing:.08em;font-weight:700}
+.d2.s-text{background:var(--k);color:var(--m)}
+.d2.s-text .cap{position:absolute;left:8cqw;top:10cqw;font-family:"Montserrat",sans-serif;font-size:3.6cqw;letter-spacing:.12em;text-transform:uppercase;color:var(--oc);font-weight:700}
+.d2.s-text p{position:absolute;left:8cqw;right:8cqw;top:24cqw;margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:8.6cqw;line-height:1.18}
+.d2.s-cta{background:var(--m);color:var(--k)}
+.d2.s-cta h4{position:absolute;left:8cqw;right:8cqw;top:22cqw;margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:11cqw;line-height:1}
+.d2.s-cta p{position:absolute;left:8cqw;right:8cqw;bottom:16cqw;margin:0;font-family:"Montserrat",sans-serif;font-size:4.6cqw;line-height:1.4;color:var(--ol)}
+.d2.hc{background:var(--k);color:var(--oc)}
+.d2.hc span{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700}
+
+/* ---------- Direção 3: Manifesto ---------- */
+.d3{--t:#C4593A;--pe:#1D4953;--a:#EFE4D6;--rc:#EBB7A5;--tk:#1E1A18}
+.d3.s-cover{background:var(--t);color:var(--a)}
+.d3.s-cover h4{position:absolute;left:6cqw;right:6cqw;top:10cqw;margin:0;font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:14.2cqw;line-height:.98;text-transform:uppercase;letter-spacing:.005em}
+.d3.s-cover h4 span{color:var(--tk)}
+.d3.s-cover .sub{position:absolute;left:6cqw;bottom:13cqw;font-family:"Lora",Georgia,serif;font-style:italic;font-size:5.6cqw;color:var(--a)}
+.d3.s-text{background:var(--a);color:var(--tk)}
+.d3.s-text .big{position:absolute;left:7cqw;top:9cqw;font-family:"Anton",Impact,sans-serif;font-size:30cqw;line-height:1;color:var(--t)}
+.d3.s-text p{position:absolute;left:7cqw;right:8cqw;top:48cqw;margin:0;font-family:"Montserrat",sans-serif;font-weight:500;font-size:5.8cqw;line-height:1.38}
+.d3.s-cta{background:var(--pe);color:var(--a)}
+.d3.s-cta h4{position:absolute;left:7cqw;right:7cqw;top:18cqw;margin:0;font-family:"Anton",Impact,sans-serif;font-weight:400;font-size:12cqw;line-height:1.02;text-transform:uppercase}
+.d3.s-cta h4 span{color:var(--rc)}
+.d3.s-cta p{position:absolute;left:7cqw;right:7cqw;bottom:16cqw;margin:0;font-family:"Montserrat",sans-serif;font-size:4.8cqw;line-height:1.4}
+.d3.hc{background:var(--t);color:var(--a)}
+.d3.hc span{font-family:"Anton",Impact,sans-serif}
+
+section.rec{margin-top:48px;padding:20px;border-radius:12px;background:var(--panel);border:1px solid var(--line);display:grid;gap:8px;max-width:760px}
+section.rec h2{font-size:26px}
+section.rec p{margin:0}
+@media (prefers-reduced-motion:reduce){.slides{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">@arayzacavalcante · Livros e psicologia sobre mulheres e suas escolhas</span>
+    <h1>Três caminhos para a sua identidade visual</h1>
+    <p class="lede">Cada direção mostra paleta, fontes, três slides do carrossel sobre <i>A Redoma de Vidro</i> e as capas dos destaques. Todas as fontes existem no Canva. Deslize os slides para o lado no celular.</p>
+    <nav class="jump" aria-label="Ir para a direção">
+      <a href="#diario">1 · Diário de leitura</a>
+      <a href="#galeria">2 · Galeria clássica</a>
+      <a href="#manifesto">3 · Manifesto</a>
+    </nav>
+  </header>
+
+  <!-- DIREÇÃO 1 -->
+  <section class="dir" id="diario" aria-labelledby="t1">
+    <div class="dir-head"><span class="n">Direção 1</span><h2 id="t1">Diário de leitura</h2><span class="tag">Recomendada</span></div>
+    <p class="why">Parece o caderno de uma leitora: papel, vinho, rosa-pó, trechos sublinhados e anotações à mão na margem. Continua o vinho e o rosa que você já usa, é acolhedora para mães e se diferencia da @najulia.gf, que usa pinturas escuras.</p>
+    <div class="slides" role="list" aria-label="Exemplo de carrossel, direção 1">
+      <div class="slide d1 s-cover" role="listitem"><span class="k">A Redoma de Vidro, 1963</span><span class="arrow">→</span><h4>Sylvia Plath explicou por que você <em>não consegue decidir nada</em></h4><span class="handle">@arayzacavalcante</span><span class="pg">1/8</span></div>
+      <div class="slide d1 s-text" role="listitem"><p>Cada figo é uma vida possível. Ela quer todos. Com medo de escolher um e perder os outros, <mark>não escolhe nenhum.</mark></p><span class="note">e os figos apodrecem…</span><span class="handle">@arayzacavalcante</span><span class="pg">4/8</span></div>
+      <div class="slide d1 s-cta" role="listitem"><h4>Qual figo você está deixando apodrecer?</h4><p>Me conta nos comentários. E manda para a amiga que precisa escolher.</p><span class="handle">@arayzacavalcante</span><span class="pg">8/8</span></div>
+    </div>
+    <div class="meta">
+      <div class="box"><h3>Paleta</h3><div class="swatches">
+        <div class="sw"><i style="background:#6E1F3A"></i><b>Vinho</b><code>#6E1F3A</code></div>
+        <div class="sw"><i style="background:#E7C6C2"></i><b>Rosa-pó</b><code>#E7C6C2</code></div>
+        <div class="sw"><i style="background:#F6EFE9"></i><b>Papel</b><code>#F6EFE9</code></div>
+        <div class="sw"><i style="background:#2B1B21"></i><b>Tinta</b><code>#2B1B21</code></div>
+        <div class="sw"><i style="background:#8A7A3E"></i><b>Oliva</b><code>#8A7A3E</code></div>
+      </div></div>
+      <div class="box"><h3>Fontes</h3><div class="fonts">
+        <div class="font"><span class="fname">DM Serif Display</span><span class="role">títulos</span><span class="sample" style="font-family:'DM Serif Display',serif">Mulheres e suas escolhas</span></div>
+        <div class="font"><span class="fname">Lora</span><span class="role">textos</span><span class="sample" style="font-family:'Lora',serif;font-size:19px">Cada figo é uma vida possível.</span></div>
+        <div class="font"><span class="fname">Caveat</span><span class="role">anotações</span><span class="sample" style="font-family:'Caveat',cursive">e os figos apodrecem…</span></div>
+      </div></div>
+      <div class="box"><h3>Regras</h3><ul class="rules">
+        <li>Capa sempre vinho; slides de texto em papel; último slide rosa-pó.</li>
+        <li>Um trecho por slide com marca-texto rosa.</li>
+        <li>Fotos reais: seus livros, mãos, xícara, luz natural.</li>
+        <li>Anotação à mão só uma vez por carrossel.</li>
+      </ul></div>
+      <div class="box"><h3>Destaques</h3><div class="hl">
+        <figure><div class="c d1 hc"><span>Eu</span></div><figcaption>Sobre mim</figcaption></figure>
+        <figure><div class="c d1 hc"><span>Lê</span></div><figcaption>Lendo</figcaption></figure>
+        <figure><div class="c d1 hc"><span>Tx</span></div><figcaption>Textos</figcaption></figure>
+        <figure><div class="c d1 hc"><span>Mã</span></div><figcaption>Maternidade</figcaption></figure>
+        <figure><div class="c d1 hc"><span>?</span></div><figcaption>Perguntas</figcaption></figure>
+        <figure><div class="c d1 hc"><span>Lc</span></div><figcaption>Leia comigo</figcaption></figure>
+      </div><span class="label">Letras ou ícones de linha, todos em vinho sobre papel.</span></div>
+    </div>
+  </section>
+
+  <!-- DIREÇÃO 2 -->
+  <section class="dir" id="galeria" aria-labelledby="t2">
+    <div class="dir-head"><span class="n">Direção 2</span><h2 id="t2">Galeria clássica</h2></div>
+    <p class="why">Pinturas de mulheres (arte em domínio público) com texto claro por cima, estilo museu. Dá muita autoridade para falar de clássicos e costuma ser muito compartilhada. O risco é ficar parecida com a @najulia.gf e com vários perfis de literatura.</p>
+    <div class="slides" role="list" aria-label="Exemplo de carrossel, direção 2">
+      <div class="slide d2 s-cover" role="listitem"><h4>Sylvia Plath explicou por que você <em>não consegue decidir nada</em></h4><span class="arrow">DESLIZE →</span><span class="handle">@arayzacavalcante</span><span class="pg">1/8</span></div>
+      <div class="slide d2 s-text" role="listitem"><span class="cap">A Redoma de Vidro · 1963</span><p>Cada figo é uma vida possível. Ela quer todos. E, com medo de perder os outros, não escolhe nenhum.</p><span class="handle">@arayzacavalcante</span><span class="pg">4/8</span></div>
+      <div class="slide d2 s-cta" role="listitem"><h4>Qual figo você está deixando apodrecer?</h4><p>Me conta nos comentários. E manda para a amiga que precisa escolher.</p><span class="handle">@arayzacavalcante</span><span class="pg">8/8</span></div>
+    </div>
+    <div class="meta">
+      <div class="box"><h3>Paleta</h3><div class="swatches">
+        <div class="sw"><i style="background:#1E231F"></i><b>Verniz</b><code>#1E231F</code></div>
+        <div class="sw"><i style="background:#EFE8DA"></i><b>Marfim</b><code>#EFE8DA</code></div>
+        <div class="sw"><i style="background:#C08A3E"></i><b>Ocre</b><code>#C08A3E</code></div>
+        <div class="sw"><i style="background:#5E6B4F"></i><b>Oliva</b><code>#5E6B4F</code></div>
+        <div class="sw"><i style="background:#8C8374"></i><b>Pedra</b><code>#8C8374</code></div>
+      </div></div>
+      <div class="box"><h3>Fontes</h3><div class="fonts">
+        <div class="font"><span class="fname">Cormorant Garamond</span><span class="role">títulos</span><span class="sample" style="font-family:'Cormorant Garamond',serif;font-weight:700">Mulheres e suas escolhas</span></div>
+        <div class="font"><span class="fname">Montserrat</span><span class="role">textos e rótulos</span><span class="sample" style="font-family:'Montserrat',sans-serif;font-size:17px">A REDOMA DE VIDRO · 1963</span></div>
+      </div></div>
+      <div class="box"><h3>Regras</h3><ul class="rules">
+        <li>Capa sempre com pintura de mulher e texto marfim embaixo.</li>
+        <li>Fontes de imagem: acervos abertos de museus (Rijksmuseum, The Met, Wikimedia).</li>
+        <li>Ocre só para destacar uma palavra.</li>
+      </ul></div>
+      <div class="box"><h3>Destaques</h3><div class="hl">
+        <figure><div class="c d2 hc"><span>I</span></div><figcaption>Sobre mim</figcaption></figure>
+        <figure><div class="c d2 hc"><span>II</span></div><figcaption>Lendo</figcaption></figure>
+        <figure><div class="c d2 hc"><span>III</span></div><figcaption>Textos</figcaption></figure>
+        <figure><div class="c d2 hc"><span>IV</span></div><figcaption>Maternidade</figcaption></figure>
+        <figure><div class="c d2 hc"><span>V</span></div><figcaption>Perguntas</figcaption></figure>
+        <figure><div class="c d2 hc"><span>VI</span></div><figcaption>Leia comigo</figcaption></figure>
+      </div><span class="label">Ou recortes das próprias pinturas.</span></div>
+    </div>
+  </section>
+
+  <!-- DIREÇÃO 3 -->
+  <section class="dir" id="manifesto" aria-labelledby="t3">
+    <div class="dir-head"><span class="n">Direção 3</span><h2 id="t3">Manifesto</h2></div>
+    <p class="why">Cor chapada e letras grandes e altas, como um cartaz. Combina com a autonomia da mulher e se destaca muito no feed. Exige frases curtas e fortes, e é menos aconchegante para falar de maternidade.</p>
+    <div class="slides" role="list" aria-label="Exemplo de carrossel, direção 3">
+      <div class="slide d3 s-cover" role="listitem"><h4>Sylvia Plath explicou por que você <span>não consegue decidir nada</span></h4><span class="sub">A Redoma de Vidro, 1963 →</span><span class="handle">@arayzacavalcante</span><span class="pg">1/8</span></div>
+      <div class="slide d3 s-text" role="listitem"><span class="big">🌳</span><p>Cada figo é uma vida possível. Ela quer todos. Com medo de escolher um e perder os outros, não escolhe nenhum.</p><span class="handle">@arayzacavalcante</span><span class="pg">4/8</span></div>
+      <div class="slide d3 s-cta" role="listitem"><h4>Qual figo você está deixando <span>apodrecer?</span></h4><p>Me conta nos comentários. E manda para a amiga que precisa escolher.</p><span class="handle">@arayzacavalcante</span><span class="pg">8/8</span></div>
+    </div>
+    <div class="meta">
+      <div class="box"><h3>Paleta</h3><div class="swatches">
+        <div class="sw"><i style="background:#C4593A"></i><b>Terracota</b><code>#C4593A</code></div>
+        <div class="sw"><i style="background:#1D4953"></i><b>Petróleo</b><code>#1D4953</code></div>
+        <div class="sw"><i style="background:#EFE4D6"></i><b>Areia</b><code>#EFE4D6</code></div>
+        <div class="sw"><i style="background:#EBB7A5"></i><b>Rosa-chá</b><code>#EBB7A5</code></div>
+        <div class="sw"><i style="background:#1E1A18"></i><b>Carvão</b><code>#1E1A18</code></div>
+      </div></div>
+      <div class="box"><h3>Fontes</h3><div class="fonts">
+        <div class="font"><span class="fname">Anton</span><span class="role">títulos</span><span class="sample" style="font-family:'Anton',sans-serif;text-transform:uppercase">Mulheres e suas escolhas</span></div>
+        <div class="font"><span class="fname">Montserrat</span><span class="role">textos</span><span class="sample" style="font-family:'Montserrat',sans-serif;font-size:17px">Cada figo é uma vida possível.</span></div>
+        <div class="font"><span class="fname">Lora itálico</span><span class="role">detalhes</span><span class="sample" style="font-family:'Lora',serif;font-style:italic;font-size:19px">A Redoma de Vidro, 1963</span></div>
+      </div></div>
+      <div class="box"><h3>Regras</h3><ul class="rules">
+        <li>Capa terracota, fechamento petróleo, miolo areia.</li>
+        <li>Títulos sempre em caixa alta, no máximo 8 palavras.</li>
+        <li>Quase sem fotos: a tipografia é a imagem.</li>
+      </ul></div>
+      <div class="box"><h3>Destaques</h3><div class="hl">
+        <figure><div class="c d3 hc"><span>EU</span></div><figcaption>Sobre mim</figcaption></figure>
+        <figure><div class="c d3 hc"><span>LÊ</span></div><figcaption>Lendo</figcaption></figure>
+        <figure><div class="c d3 hc"><span>TX</span></div><figcaption>Textos</figcaption></figure>
+        <figure><div class="c d3 hc"><span>MÃE</span></div><figcaption>Maternidade</figcaption></figure>
+        <figure><div class="c d3 hc"><span>?</span></div><figcaption>Perguntas</figcaption></figure>
+        <figure><div class="c d3 hc"><span>LC</span></div><figcaption>Leia comigo</figcaption></figure>
+      </div></div>
+    </div>
+  </section>
+
+  <section class="rec" aria-labelledby="tr">
+    <h2 id="tr">Minha recomendação</h2>
+    <p><b>Direção 1, Diário de leitura.</b> É a que mais parece você: leitora, mãe, escritora de Substack. Aproveita o vinho e o rosa que já estão no seu perfil, funciona tanto para livros quanto para maternidade e não se confunde com as suas referências.</p>
+    <p>Dá para misturar: a estrutura da 1 com uma pintura clássica na capa quando o post for sobre um clássico (da 2).</p>
+  </section>
+</div>
