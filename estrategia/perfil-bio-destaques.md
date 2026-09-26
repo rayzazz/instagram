@@ -12,13 +12,14 @@ Por que não só "Rayza | Psicologia": pode parecer perfil de psicóloga formada
 
 ## Bio (até 150 caracteres)
 
-**Escolhida (26/09):** conceito "mulheres e suas escolhas"
+**No ar desde 26/09** ([print](../analises/meu-perfil/prints/perfil-2026-09-26.png)). O nome já carrega o tema; a linha sobre "mulheres e suas escolhas" ficou para depois.
 
 ```
-Livros e psicologia sobre mulheres e suas escolhas 📚
 Estudante de psicologia · mãe de dois
-✉️ Meus textos no Substack ⤵️
+💌 Meus textos no Substack ⤵️
 ```
+
+Ideias para uma 1ª linha, se quiser voltar a isso: "Leio para entender as escolhas das mulheres. E as minhas." · "Autonomia feminina, página por página."
 
 **Versão futura:** para quando abrir a primeira leitura guiada
 
