@@ -56,3 +56,29 @@ A Rayza prefere não depender de tirar foto. **Novo formato base: texto sem foto
 3. **Meme.**
 
 **Foto é opcional:** quando tiver uma boa, usa na capa (1A). Quando não tiver: banco de fotos grátis (Unsplash, Pexels, biblioteca do Canva) ou pinturas em domínio público, sempre com o mesmo filtro.
+
+## ✅ DECISÃO FINAL (05/11): estética inspirada em @mktamanda
+
+Referência: [print da grade](../analises/referencias/prints/mktamanda-grade-referencia.png). Substitui as decisões anteriores.
+
+**O que define o estilo:**
+- Frase grande em **minúsculas**, **negrito**, letras bem juntinhas, **texto justificado** (alinhado nas duas margens).
+- Dois tipos de slide:
+  1. **Fundo amarelo-manteiga** liso com texto escuro.
+  2. **Foto com filtro vintage** (quente, apagadinho) com texto creme por cima. Foto de banco (Pexels, Unsplash, Canva), não precisa ser sua.
+- **Figurinhas e ilustrações fofas** (nuvem, estrelinha, ovelhinha, desenho de amigas) para o humor.
+- Um detalhe vermelho pequeno.
+- @ pequeno no canto de cima.
+
+**Paleta**
+
+| Cor | Hex | Uso |
+|---|---|---|
+| Manteiga | `#F5EBC4` | fundo liso |
+| Creme | `#F6EDCF` | texto sobre foto |
+| Café | `#211A16` | texto sobre fundo manteiga |
+| Vermelho | `#C8372D` | o detalhe (assinatura) |
+
+**Fonte no Canva:** Inter (ou Archivo) **Bold**, espaçamento entre letras **-40 a -60**, entre linhas **0,9**, alinhamento **justificado**, tudo em minúsculas.
+
+**Assinatura da Rayza (para não virar cópia):** em vez do coração da referência, um **sublinhado à mão em vermelho** embaixo de uma palavra por slide (Caveat ou traço de caneta). Temas também diferenciam: livros, psicologia, maternidade.
