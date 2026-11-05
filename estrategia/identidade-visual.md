@@ -29,3 +29,19 @@ _26/09/2026 · opções completas em `identidade-visual-opcoes.html` (https://cl
 ## Arquivos no Canva
 
 - Capas de destaques (7 páginas, formato story): https://www.canva.com/d/98FhDz668UNEaCr
+
+## Ajuste de 05/11: "gosto de tudo" + leveza e humor
+
+Decisão: **não abrir novas opções**. Manter 1A + 1C e deixar o kit mais leve.
+
+**Kit fixo (vale por 30 dias / 9 posts):**
+- **Cores principais:** papel `#F6EFE9` e rosa-pó `#E7C6C2`. O vinho vira **só detalhe** (uma palavra, um rabisco), para não pesar.
+- **Fontes:** DM Sans (tudo) + DM Serif itálico (uma palavra por slide) + Caveat (uma anotação por post).
+- **3 formatos e nada mais:** frase na foto (1A) · álbum (1C) · meme.
+- **Fotos:** suas, quentes e claras, sempre com o mesmo filtro.
+
+**Regra para quem gosta de tudo:** se a ideia não cabe no kit, ela vai para os **stories**, que são livres. O feed segue o kit.
+
+**Teste antes de postar:** "se eu tirar o @, dá pra saber que é meu?"
+
+**Revisão:** depois de 9 posts, olhar quais tiveram mais salvamentos e compartilhamentos e ajustar com base nisso, não no gosto do dia.
