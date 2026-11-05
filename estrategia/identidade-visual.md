@@ -45,3 +45,14 @@ Decisão: **não abrir novas opções**. Manter 1A + 1C e deixar o kit mais leve
 **Teste antes de postar:** "se eu tirar o @, dá pra saber que é meu?"
 
 **Revisão:** depois de 9 posts, olhar quais tiveram mais salvamentos e compartilhamentos e ajustar com base nisso, não no gosto do dia.
+
+## Ajuste de 05/11 (2): sem depender de foto
+
+A Rayza prefere não depender de tirar foto. **Novo formato base: texto sem foto.** Foto vira opcional.
+
+**3 formatos do feed:**
+1. **Texto no papel** (principal): fundo papel ou rosa-pó, frase em DM Sans, uma palavra em DM Serif itálico, anotação em Caveat. É o slide da 1C sem a foto.
+2. **Estilo tweet:** a sua foto de perfil + nome + frase, fundo papel. Já existe um post assim na grade e combina com reflexão curta.
+3. **Meme.**
+
+**Foto é opcional:** quando tiver uma boa, usa na capa (1A). Quando não tiver: banco de fotos grátis (Unsplash, Pexels, biblioteca do Canva) ou pinturas em domínio público, sempre com o mesmo filtro.
