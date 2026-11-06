@@ -75,7 +75,7 @@ Referência: [print da grade](../analises/referencias/prints/mktamanda-grade-ref
 | Cor | Hex | Uso |
 |---|---|---|
 | Manteiga | `#F5EBC4` | fundo liso |
-| Creme | `#F6EDCF` | texto sobre foto |
+| Amarelo-manteiga | `#F4E3A1` | texto sobre foto (ajustado em 06/11, mais amarelo) |
 | Café | `#211A16` | texto sobre fundo manteiga |
 | Vermelho | `#C8372D` | o detalhe (assinatura) |
 
@@ -102,3 +102,5 @@ Referência: [print da grade](../analises/referencias/prints/mktamanda-grade-ref
 **Dica:** depois de acertar a primeira foto, use "Copiar estilo" (pincel) ou salve como modelo e só troque a foto nas próximas.
 
 **Apps no celular (opcional):** VSCO ou Lightroom (filtros de filme), Dazz Cam ou Huji para tirar fotos já com cara analógica.
+
+- Carrossel de descanso (estilo final): https://www.canva.com/d/JTeQkYUltUynHdr
