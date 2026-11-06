@@ -82,3 +82,23 @@ Referência: [print da grade](../analises/referencias/prints/mktamanda-grade-ref
 **Fonte no Canva:** Inter (ou Archivo) **Bold**, espaçamento entre letras **-40 a -60**, entre linhas **0,9**, alinhamento **justificado**, tudo em minúsculas.
 
 **Assinatura da Rayza (para não virar cópia):** em vez do coração da referência, um **sublinhado à mão em vermelho** embaixo de uma palavra por slide (Caveat ou traço de caneta). Temas também diferenciam: livros, psicologia, maternidade.
+
+## Receita das fotos "borradas vintage" (estilo da referência)
+
+**Onde achar fotos:** Pexels, Unsplash ou biblioteca do Canva. Buscas: `film photography`, `35mm`, `vintage woman`, `blurry flowers`, `cozy reading`, `motion blur`. Evitar Pinterest: as fotos têm dono.
+
+**No Canva (Editar foto → Ajustar):**
+
+| Ajuste | Valor aproximado | Para quê |
+|---|---|---|
+| Desfoque | 10 a 25 | o efeito "borrado"; o texto fica em destaque |
+| Granulado | 20 a 40 | cara de filme analógico |
+| Contraste | -15 a -25 | deixa "apagadinho" |
+| Saturação | -20 a -30 | cores mais calmas |
+| Temperatura | +15 a +25 | tom quente, amarelado |
+| Brilho | -10 a -20 | escurece um pouco para o texto creme aparecer |
+| Vinheta | +15 a +25 | bordas mais escuras |
+
+**Dica:** depois de acertar a primeira foto, use "Copiar estilo" (pincel) ou salve como modelo e só troque a foto nas próximas.
+
+**Apps no celular (opcional):** VSCO ou Lightroom (filtros de filme), Dazz Cam ou Huji para tirar fotos já com cara analógica.
